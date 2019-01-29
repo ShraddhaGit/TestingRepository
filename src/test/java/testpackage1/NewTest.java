@@ -5,15 +5,23 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
 
-
-public class Testclass1 {
-
-	public static void main(String[] args) throws InterruptedException {
-		// TODO Auto-generated method stub
-		WebDriver driver;
+public class NewTest
+{
+	 WebDriver driver;
+  @BeforeClass
+  public void initialisedriver()
+  {
+	 
 		System.setProperty("webdriver.chrome.driver", "C:\\Webdrivers\\chromedriver.exe");
 		driver = new ChromeDriver();
+  }
+	@Test
+  public void f() throws InterruptedException
+	{
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.get("http://10.0.0.90");
@@ -25,8 +33,11 @@ public class Testclass1 {
 		//driver.findElement(By.linkText(" Create Experience")).click();
 		driver.findElement(By.xpath("/html/body/app-root/div[1]/nav/div[1]/popover-container/div[2]/div/div[5]/div/div")).click();
         Thread.sleep(2000);
-        driver.quit();
-
+       
+  }
+	@AfterClass
+	public void browserclose()
+	{
+		 driver.quit();
 	}
-
 }
