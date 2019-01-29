@@ -25,6 +25,7 @@ public class NewTest
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.get("http://10.0.0.90");
+		Thread.sleep(2000);
 		driver.findElement(By.id("uname")).sendKeys("shraddha@eqw.io");
 		driver.findElement(By.name("pswd")).sendKeys("Shraddha@123");
 		driver.findElement(By.xpath("//*[@id=\"mainBody\"]/div/app-login/div/div/div/div[2]/div[1]/form/div[4]/div/button")).click();
