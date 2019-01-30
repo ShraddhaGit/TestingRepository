@@ -5,7 +5,7 @@
     <classes>
       <class name="testpackage1.NewTest">
         <methods>
-          <include name="f"/>
+          <include name="Dashboard"/>
           <include name="browserclose"/>
           <include name="initialisedriver"/>
         </methods>
