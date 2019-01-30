@@ -37,12 +37,15 @@ public class NewTest
         //Thread.sleep(2000);
 	}  
        @Test(priority=1)
-       public void Dashboard()
+       public void Dashboard() throws InterruptedException
       {
        
         driver.findElement(By.xpath("/html/body/app-root/div[1]/div/app-dashboard/div[1]/div[2]/div/div[1]/div/div[2]")).click();
+        Thread.sleep(2000);
         driver.findElement(By.xpath("/html/body/modal-container/div/div/form/div[2]/div/div[2]/div[1]/span/input")).sendKeys("GT-Auto");
+        //driver.findElement(By.xpath("//button[@type='submit']")).click();
         driver.findElement(By.xpath("/html/body/modal-container/div/div/form/div[2]/div/div[2]/div[3]/button[1]")).click();
+        Thread.sleep(2000);
       }
             
   

@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="36360" started-at="2019-01-30T06:49:51Z" finished-at="2019-01-30T06:50:27Z">
+  <suite name="Default suite" duration-ms="35853" started-at="2019-01-30T08:05:49Z" finished-at="2019-01-30T08:06:25Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="36360" started-at="2019-01-30T06:49:51Z" finished-at="2019-01-30T06:50:27Z">
+    <test name="Default test" duration-ms="35853" started-at="2019-01-30T08:05:49Z" finished-at="2019-01-30T08:06:25Z">
       <class name="testpackage1.NewTest">
-        <test-method status="PASS" signature="initialisedriver()[pri:0, instance:testpackage1.NewTest@13805618]" name="initialisedriver" is-config="true" duration-ms="5717" started-at="2019-01-30T06:49:51Z" finished-at="2019-01-30T06:49:56Z">
+        <test-method status="PASS" signature="initialisedriver()[pri:0, instance:testpackage1.NewTest@13805618]" name="initialisedriver" is-config="true" duration-ms="5828" started-at="2019-01-30T08:05:49Z" finished-at="2019-01-30T08:05:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialisedriver -->
-        <test-method status="PASS" signature="Login()[pri:0, instance:testpackage1.NewTest@13805618]" name="Login" duration-ms="24284" started-at="2019-01-30T06:49:56Z" finished-at="2019-01-30T06:50:21Z">
+        <test-method status="PASS" signature="Login()[pri:0, instance:testpackage1.NewTest@13805618]" name="Login" duration-ms="21200" started-at="2019-01-30T08:05:55Z" finished-at="2019-01-30T08:06:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="Dashboard()[pri:1, instance:testpackage1.NewTest@13805618]" name="Dashboard" duration-ms="5560" started-at="2019-01-30T06:50:21Z" finished-at="2019-01-30T06:50:26Z">
+        <test-method status="PASS" signature="Dashboard()[pri:1, instance:testpackage1.NewTest@13805618]" name="Dashboard" duration-ms="7937" started-at="2019-01-30T08:06:16Z" finished-at="2019-01-30T08:06:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Dashboard -->
-        <test-method status="PASS" signature="browserclose()[pri:0, instance:testpackage1.NewTest@13805618]" name="browserclose" is-config="true" duration-ms="738" started-at="2019-01-30T06:50:26Z" finished-at="2019-01-30T06:50:27Z">
+        <test-method status="PASS" signature="browserclose()[pri:0, instance:testpackage1.NewTest@13805618]" name="browserclose" is-config="true" duration-ms="807" started-at="2019-01-30T08:06:24Z" finished-at="2019-01-30T08:06:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
